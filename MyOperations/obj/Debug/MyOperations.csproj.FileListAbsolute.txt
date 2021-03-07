@@ -1,0 +1,18 @@
+H:\ASP\RentSystem\MyOperations\bin\Debug\MyOperations.dll
+H:\ASP\RentSystem\MyOperations\bin\Debug\MyOperations.pdb
+H:\ASP\RentSystem\MyOperations\obj\Debug\MyOperations.csprojAssemblyReference.cache
+H:\ASP\RentSystem\MyOperations\obj\Debug\MyOperations.csproj.CoreCompileInputs.cache
+H:\ASP\RentSystem\MyOperations\obj\Debug\MyOperations.dll
+H:\ASP\RentSystem\MyOperations\obj\Debug\MyOperations.pdb
+C:\Users\biski\Desktop\Project\Project\Intenal Project\RentSystem\MyOperations\bin\Debug\MyOperations.dll
+C:\Users\biski\Desktop\Project\Project\Intenal Project\RentSystem\MyOperations\bin\Debug\MyOperations.pdb
+C:\Users\biski\Desktop\Project\Project\Intenal Project\RentSystem\MyOperations\obj\Debug\MyOperations.csprojAssemblyReference.cache
+C:\Users\biski\Desktop\Project\Project\Intenal Project\RentSystem\MyOperations\obj\Debug\MyOperations.csproj.CoreCompileInputs.cache
+C:\Users\biski\Desktop\Project\Project\Intenal Project\RentSystem\MyOperations\obj\Debug\MyOperations.dll
+C:\Users\biski\Desktop\Project\Project\Intenal Project\RentSystem\MyOperations\obj\Debug\MyOperations.pdb
+C:\Users\Admin\Desktop\RentSystem\MyOperations\bin\Debug\MyOperations.dll
+C:\Users\Admin\Desktop\RentSystem\MyOperations\bin\Debug\MyOperations.pdb
+C:\Users\Admin\Desktop\RentSystem\MyOperations\obj\Debug\MyOperations.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\RentSystem\MyOperations\obj\Debug\MyOperations.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\RentSystem\MyOperations\obj\Debug\MyOperations.dll
+C:\Users\Admin\Desktop\RentSystem\MyOperations\obj\Debug\MyOperations.pdb

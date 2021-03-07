@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{859E53CB-B7E0-461E-901A-9D9524B39060}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyOperations</RootNamespace>
+    <AssemblyName>MyOperations</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BAL\Bal_Area.cs" />
+    <Compile Include="BAL\Bal_camera.cs" />
+    <Compile Include="BAL\Bal_CameraDocument.cs" />
+    <Compile Include="BAL\Bal_CarDetails.cs" />
+    <Compile Include="BAL\Bal_CarDocument.cs" />
+    <Compile Include="BAL\Bal_Car_All_Det.cs" />
+    <Compile Include="BAL\Bal_Category.cs" />
+    <Compile Include="BAL\Bal_City.cs" />
+    <Compile Include="BAL\Bal_Company.cs" />
+    <Compile Include="BAL\Bal_editprofile.cs" />
+    <Compile Include="BAL\Bal_HouseDetails.cs" />
+    <Compile Include="BAL\Bal_Housedocument.cs" />
+    <Compile Include="BAL\Bal_HouseType.cs" />
+    <Compile Include="BAL\Bal_Model.cs" />
+    <Compile Include="BAL\Bal_Payment.cs" />
+    <Compile Include="BAL\Bal_RentType.cs" />
+    <Compile Include="BAL\Bal_State.cs" />
+    <Compile Include="BAL\Bal_SubCategory.cs" />
+    <Compile Include="BAL\Bal_SubModel.cs" />
+    <Compile Include="BAL\Bal_Login.cs" />
+    <Compile Include="BAL\Bal_Reg.cs" />
+    <Compile Include="BAL\Bal_Booking.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DAL\CommanFunction.cs" />
+    <Compile Include="DAL\Dal_Area.cs" />
+    <Compile Include="DAL\Dal_Booking.cs" />
+    <Compile Include="DAL\Dal_camera.cs" />
+    <Compile Include="DAL\Dal_CameraDocument.cs" />
+    <Compile Include="DAL\Dal_CarDetails.cs" />
+    <Compile Include="DAL\Dal_CarDocument.cs" />
+    <Compile Include="DAL\Dal_Car_All_Det.cs" />
+    <Compile Include="DAL\Dal_Category.cs" />
+    <Compile Include="DAL\Dal_City.cs" />
+    <Compile Include="DAL\Dal_Company.cs" />
+    <Compile Include="DAL\Dal_editprofile.cs" />
+    <Compile Include="DAL\Dal_HouseDetails.cs" />
+    <Compile Include="DAL\Dal_housedocument.cs" />
+    <Compile Include="DAL\Dal_HouseType.cs" />
+    <Compile Include="DAL\Dal_Model.cs" />
+    <Compile Include="DAL\Dal_Payment.cs" />
+    <Compile Include="DAL\Dal_RentType.cs" />
+    <Compile Include="DAL\Dal_State.cs" />
+    <Compile Include="DAL\Dal_SubCategory.cs" />
+    <Compile Include="DAL\Dal_SubModel.cs" />
+    <Compile Include="DAL\Dal_Login.cs" />
+    <Compile Include="DAL\Dal_Reg.cs" />
+    <Compile Include="DAL\SQLHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
